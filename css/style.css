@@ -65,7 +65,7 @@ li{
 }
 /* * fine navbar */
 
-
+/* titoli principali */
 .title{
     color: white;
     font-size: 80px;
@@ -73,20 +73,28 @@ li{
     margin: 0;
 }
 
+/* titoli secondari */
 .title2{
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     font-family: bold;
     margin: 0;
 }
 
 
+
+
+/* * per il footer */
 .ending{
     display: flex;
     flex-direction: row;
     background-color: #23272a;
     color: white;
 }
+
+
+
+
 
 .sfondo{
     background-color: #f6f6f6;
@@ -197,8 +205,39 @@ div.column-big{
     flex-direction: row;
 }
 
+/* + si riferisce esclusivamente alla descrizione all'interno del header */
 #descrizione{
     color: white;
+    font-size: 15px;
+    line-height: 1.625;
+    margin: auto;
+    max-width: 780px;
+    text-align: center;
+    margin: 1%;
+
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+}
+
+
+
+/* + per centrare gli elementi di testo in collana e giustificati al centro */
+.centered-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+
+#fotofinale{
+    margin: 4rem;
+}
+
+/* + per ogni testo dentro al main */
+.descrizione2{
+    color: rgb(35 39 42);
     font-size: 15px;
     line-height: 1.625;
     margin: auto;
