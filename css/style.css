@@ -15,6 +15,16 @@ li{
     padding: 1.2rem;
 }
 
+footer{
+    background-color: #23272a;
+    color: white;
+}
+
+hr{
+    border: 1px solid #5865f2;
+
+}
+
 
 /* + per impostare un elemento dentro una flexbox al centro del flex container! */
 .flex-centered{
@@ -54,6 +64,20 @@ li{
     padding-right: 7rem;
     margin-bottom: 7rem;
 }
+
+
+/* *footer navbar */
+.navigazione-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
 
 
 /* logo presente nella nav bar */
@@ -175,6 +199,17 @@ div.column-big{
     margin: .5rem;
 }
 
+.bottone-small{
+    color: black;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+    border-radius: 28px;
+    border: none;
+    padding: 12px 20px;
+    margin: 3rem;
+}
+
 
 .blackbutton{
     background-color: #23272a;
@@ -250,3 +285,30 @@ div.column-big{
     font-family: inherit;
 }
 /* ------------------------ */
+
+
+
+
+
+
+/* ! footer link section .css */
+/* ! ------------------------------------- */
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+}
+
+
+.Lingua-Link{
+    display: flex;
+    flex-direction: column;
+}
+
+.language-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
