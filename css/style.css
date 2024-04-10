@@ -81,7 +81,6 @@ li{
 }
 
 
-
 .bottone{
     color: black;
     font-size: 20px;
@@ -96,6 +95,11 @@ li{
 
 .blackbutton{
     background-color: #23272a;
+    color: white;
+}
+
+.blubutton{
+    background-color: #5865f2;
     color: white;
 }
 /* ------------------------ */
@@ -125,6 +129,7 @@ li{
     margin: auto;
     max-width: 780px;
     text-align: center;
+    margin: 1%;
 
     font-weight: inherit;
     font-style: inherit;
