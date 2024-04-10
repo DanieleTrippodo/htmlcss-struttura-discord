@@ -10,13 +10,24 @@ header{
 }
 
 
-
-
 /* elementi cliccabili della nav bar */
 li{
     padding: 1.2rem;
 }
 
+
+/* + per impostare un elemento dentro una flexbox al centro del flex container! */
+.flex-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* + per aggiungere ad un flex container l'inserimento in colonna */
+.flex-column{
+    flex-direction: column;
+}
 
 
 
@@ -31,7 +42,7 @@ li{
 }
 
 
-/* navbar */
+/* * navbar */
 .navigazione{
     display: flex;
     flex-direction: row;
@@ -41,9 +52,8 @@ li{
     margin: 0;
     padding-left: 7rem;
     padding-right: 7rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
 }
-
 
 
 /* logo presente nella nav bar */
@@ -53,8 +63,7 @@ li{
     padding-top: 0;
     padding: 0.6rem;
 }
-
-
+/* * fine navbar */
 
 
 .title{
@@ -63,6 +72,72 @@ li{
     font-family: bold;
     margin: 0;
 }
+
+.title2{
+    color: black;
+    font-size: 50px;
+    font-family: bold;
+    margin: 0;
+}
+
+
+.ending{
+    display: flex;
+    flex-direction: row;
+    background-color: #23272a;
+    color: white;
+}
+
+.sfondo{
+    background-color: #f6f6f6;
+}
+
+/* + Color text */
+.blutext{
+    color: #5865f2;
+}
+
+
+
+
+/* elementi del body */
+/* --------------------------------- */
+
+main > section{
+    padding: 4rem;
+}
+
+.about{
+display: flex;              /* ! Flex Container */
+flex-direction: row;
+}
+
+
+.about-reverse{
+    display: flex;              /* ! Flex Container */
+    flex-direction: row-reverse;
+}
+
+
+.testopreview{
+    padding: px;
+}
+
+div.column{
+    padding: 1rem;
+}
+
+div.column-small{
+    width: 40%;
+}
+
+div.column-big{
+    width: 40%;
+}
+/* --------------------------------- */
+
+
+
 
 
 
@@ -114,7 +189,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 7rem;
+    padding-bottom: 9rem;
 }
 
 #seriebottoni{
