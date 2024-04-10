@@ -1,0 +1,133 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header{
+    background-color: #5865f2;
+}
+
+
+
+
+/* elementi cliccabili della nav bar */
+li{
+    padding: 1.2rem;
+}
+
+
+
+
+/* tutti i link legati alla navbar */
+.navbarlink{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar */
+.navigazione{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-bottom: 7rem;
+}
+
+
+
+/* logo presente nella nav bar */
+#Logo{
+    display: flex;
+    width: 124px;
+    padding-top: 0;
+    padding: 0.6rem;
+}
+
+
+
+
+.title{
+    color: white;
+    font-size: 80px;
+    font-family: bold;
+    margin: 0;
+}
+
+
+
+
+
+/* bottoni */
+/* ------------------------ */
+.loginbutton{
+    color: black;
+    height: 20px;
+    width: auto;
+    border-radius: 28px;
+    border: none;
+    padding: 16px 32px;
+    margin: .5rem;
+}
+
+
+
+.bottone{
+    color: black;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    border-radius: 28px;
+    border: none;
+    padding: 16px 32px;
+    margin: .5rem;
+}
+
+
+.blackbutton{
+    background-color: #23272a;
+    color: white;
+}
+/* ------------------------ */
+
+
+
+
+
+/* Sezione Download */
+/* ------------------------ */
+#downloadsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 7rem;
+}
+
+#seriebottoni{
+    display: flex;
+    flex-direction: row;
+}
+
+#descrizione{
+    color: white;
+    font-size: 15px;
+    line-height: 1.625;
+    margin: auto;
+    max-width: 780px;
+    text-align: center;
+
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+}
+/* ------------------------ */
